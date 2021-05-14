@@ -1,4 +1,4 @@
 # VueJS-transition
 ## The transition with VueJS.
 
-### Example: https://page.cray-dev.com/transition_vuejs/ (Example form created with TailWindCSS)
+### Example: https://moskalyka.github.io/VueJS-transition/ (Example form created with TailWindCSS)

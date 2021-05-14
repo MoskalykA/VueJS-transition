@@ -1,7 +1,27 @@
 .bounce-enter-active {
   animation: bounce-in 5s;
+  -webkit-animation: bounce-in 5s;
 }
+
 @keyframes bounce-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(0.975);
+  }
+  95% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes bounce-in {
   0% {
     transform: scale(1);
   }

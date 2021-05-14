@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Transitions</title>
-    <link rel=stylesheet href="css/transition.css">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/transition.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
 </head>
 <body>
     <div id="demo">
       <button v-on:click="show = !show">
         Start (double click!)
       </button>
+
       <transition name="bounce">
         <div class="w-full max-w-xs" v-if="show">
           <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -42,9 +43,9 @@
       </transition>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script>
-        new Vue({
+        const app = new Vue({
           el: '#demo',
           data: {
             show: true
